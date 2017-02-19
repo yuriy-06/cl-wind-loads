@@ -1,0 +1,1 @@
+sbcl --load C:\lisp\wind-loads\load.lisp
