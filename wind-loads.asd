@@ -7,6 +7,7 @@
   :maintainer "Vdovik Yuriy <babah.yuriy06@gmail.com>"
   :licence "MIT License"
   :description "Some function for engineering work"
+  :depends-on (:rest-server)
   :components ((:file "package")
 			(:file "interpol")
 			(:file "short-utils")

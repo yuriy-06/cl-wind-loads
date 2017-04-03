@@ -105,6 +105,10 @@
   (setf cn (plosk-interpol x y m-cn alfa b-h)
         ct (plosk-interpol x y m-ct alfa b-h))
   (values (list "Cn"  cn  "Ct" (ocrugl-1.000 ct)))))
+  
+(defun noriya-wind-diag (&key h-list w-type h-ct h-cn)
+	(let ()
+		))
 
 (defun beam-shadowing (shag h) ; (beam-shadowing 0.5 0.2)  ;;shading-beams
   (let (x y p v)

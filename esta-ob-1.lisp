@@ -1,6 +1,6 @@
 (in-package :wind-loads)
 
-(defvar w (* 0.038 1.4))
+(defvar w (* 0.048 1.4))
 (defvar k* nil)
 (defvar *string* (make-array 5 :fill-pointer 0 :adjustable t :element-type 'character))
 
